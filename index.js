@@ -132,7 +132,7 @@ const createFruit = () => {
 
 function updateScore() {
   const s = document.querySelector("#score");
-  s.textContent = `1Очки: ${score}`;
+  s.textContent = `Очки: ${score}`;
 }
 
 function gameOver() {
@@ -141,7 +141,7 @@ function gameOver() {
 }
 
 function endGame() {
-  alert("Вы набрали 10 очков! Поздравляем!");
+  alert("Вы набрали 0 очков! Поздравляем!");
   clearInterval(gameInterval);
 }
 
